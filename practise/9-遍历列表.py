@@ -22,3 +22,7 @@ for i in range(0,len(list1)):
 print("5. list1.index(i)来获得元素的索引号:")
 for i in list1:
     print((list1.index(i), i))
+
+print("="*20)
+dd=dir(list1)
+print(dd)
